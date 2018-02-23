@@ -18,10 +18,6 @@ import os.path
 import serial
 from xbee import ZigBee
 
-# TODO
-# Make the script also work by directly calling MQTT over ethernet, use config
-# variable to choose etherent vs XBee
-
 # Variable Setup
 # XBee
 XBEE_PORT = '/dev/ttyUSB0'
